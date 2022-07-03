@@ -78,10 +78,18 @@ for (const filePath of walkSync(process.argv[2])) {
       }
     }
 
-    fs.writeFile(__dirname + '\\' + entry.id + ".md", entryMD, (err) => {
+    fs.writeFile(__dirname + '\\' + GetFileName(entry) + ".md", entryMD, (err) => {
       if (err) {
         console.error(err)
       }
     })
   })
+}
+
+function GetFileName(entry) {
+    if (entry.title) {
+        return entry.title
+    }else{
+        return entry.id
+    }
 }
