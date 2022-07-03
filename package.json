@@ -1,0 +1,19 @@
+{
+  "name": "bundeledarchivetomarkdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajh657/BundeledArchiveToMarkdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajh657/BundeledArchiveToMarkdown/issues"
+  },
+  "homepage": "https://github.com/ajh657/BundeledArchiveToMarkdown#readme"
+}
